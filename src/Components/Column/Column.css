@@ -1,0 +1,11 @@
+.column {
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
