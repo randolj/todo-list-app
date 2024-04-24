@@ -8,9 +8,9 @@ import { Input } from './Components/Input/Input';
 function App() {
   const [tasks, setTasks] = useState([]);
 
-  const addTask = title => {
-    setTasks(tasks => [...tasks, {id: tasks.length + 1, title}])
-  };
+  const addTask = (task) => {
+    setTasks(tasks => [...tasks, { id: tasks.length + 1, title: task.title, description: task.description }]);
+};
 
   const deleteTask = (taskId) => {
     const updatedTasks = tasks.filter(task => task.id !== taskId);

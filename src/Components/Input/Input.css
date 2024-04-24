@@ -1,0 +1,9 @@
+.container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Aligns children of a flex container */
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column; /* Stack the inputs vertically */
+  }

@@ -27,3 +27,22 @@
 .kebab-menu {
     margin-left: 10px;
 }
+
+.task-details {
+    display: flex;
+}
+
+.task-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.task-description {
+    font-size: 14px;
+    color: grey;
+    margin-left: 20px;
+    margin-top: 1px;
+    word-wrap: break-word; /* Allows the text to wrap and break long words if necessary */
+    white-space: normal;
+    overflow: hidden;
+}

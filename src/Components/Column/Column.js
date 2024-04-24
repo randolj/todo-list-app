@@ -9,7 +9,7 @@ export const Column = ({tasks, onDeleteTask}) => {
         <div className="column">
             <SortableContext items={tasks} strategy={verticalListSortingStrategy}>
                 {tasks.map((task) => (
-                    <Task onDelete={() => onDeleteTask(task.id)} id={task.id} title={task.title} key={task.id} />
+                    <Task onDelete={() => onDeleteTask(task.id)} id={task.id} title={task.title} key={task.id} description={task.description} />
                 ))}
             </SortableContext>
     </div>
